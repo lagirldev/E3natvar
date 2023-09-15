@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+body {
+  background-color: darkslategrey;
+}
+
+.header {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 85px;
+  padding: 5px 10%;
+}
+
+.header .logo img {
+  height: 70px;
+  width: auto;
+}
+
+.header .logo img:hover {
+  transform: scale(1.2);
+}
+
+.header .nav-links {
+  list-style: none;
+}
+
+.header .nav-links li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.header .nav-links a {
+  font-size: 20px;
+  color: burlywood;
+  text-decoration: none;
+}
+
+.header .nav-links li a:hover {
+  color: darkslategrey;
+}
+
+.header .btn button {
+  font-size: 10px;
+  color: darkslategray;
+  padding: 9px 10px;
+  background-color: burlywood;
+  border-radius: 9px;
+}
+
+.row {
+  background-color: darkslategrey;
+  padding: 50px;
+  font: size 100px;
+  display: flex;
+}
+
+aside {
+  flex: 10px;
+  background-color: darkslategrey;
+  padding: 10px;
+}
+
+section {
+  flex: 70%;
+  background-color: darkslategrey;
+  padding: 20px;
+}
+
+footer {
+  padding: 10px;
+  text-align: left;
+  background-color: darkslategrey;
+}
+
+button {
+  border-radius: 10px;
+  background-color: darkslategrey;
+  font-size: 20px;
+  color: burlywood;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 15px;
+  padding: 5px 5%;
+}
+
+h2 {
+  font-size: 30px;
+  color: burlywood;
+}
+
+.container {
+  display: flex;
+  justify-content: right;
+}
+
+.imagen {
+  margin: 80px;
+  height: 80;
+  display: flex;
+  align-items: normal;
+}
+
+.parrafo {
+  color: burlywood;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.boton {
+  background-color: darkslategrey;
+  display: inline-block;
+  padding: 15px;
+  display: flex;
+  font-size: 15px;
+  color: burlywood;
+  padding: 9px 10px;
+  background-color: darkslategrey;
+  border-color: burlywood;
+  border-radius: 20px;
+}
